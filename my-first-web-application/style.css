@@ -1,0 +1,58 @@
+body {
+    margin-top: 0;
+  }
+
+.photo-viewer-block {
+    display: flex;
+    align-items: center;
+}
+
+.photo-viewer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    max-height: 470px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.right-arrow {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 50px;
+    color: gray;
+}
+
+.text-block {
+    color: white;
+    font-family:'Gill Sans MT', sans-serif;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 1000px;
+    height: 120px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
