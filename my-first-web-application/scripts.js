@@ -71,3 +71,10 @@ $('.left-arrow').click(() => {
     $('#photo-description').text(imagesData[currentPhoto].description);
     $('#photo-title').text(imagesData[currentPhoto].title);
 });
+
+imagesData.forEach((data, index) => {
+    // $('.animals')[index].attr('src', data.photo);
+    $('.animals')[index].src = data.photo
+    console.log($('.animals')[0]);
+});   
+
